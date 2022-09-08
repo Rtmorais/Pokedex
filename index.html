@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <link rel="icon" href="/assets/favicon-16x16.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main id="pokedex-body">
+    <section id="pokedex-head">
+      <img src="/assets/pokeball.png" alt="">
+      <div class="light"></div>
+      <div class="light"></div>
+      <div class="light"></div>
+    </section>
+    <section id="screen-shape">
+      <div id="screen">
+        <img src="" class="pokemon-image" alt="">
+        <img class="bk-img" src="/assets/Pixel-Art-Forest.png" alt="pixel bkground">
+
+
+      </div>
+      <h2 id="pk-data"><span id="pk-id"></span> - <span id="pk-name"></span> </h2>
+    </section>
+    <section id="pk-stats">
+      <p>Type: <span id="pkType"></span></p>
+      <p>Ability: <span id="pkAbility"></span></p>
+      <div>
+        <h3>Evolution</h3>
+        <div id="evolutions">
+
+        </div>
+      </div>
+    </section>
+    <section id="pokedex-buttons">
+      <a href=""><img class="btn" id="left-arrow" src="/assets/left-arrow.png" alt="left-arrow"></a>
+      <form class="form" action="">
+        <input id="pkInput" placeholder="Type a name or number" type="search" required>
+      </form>
+      <a href=""><img class="btn" id="right-arrow" src="/assets/right-arrow.png" alt="right-arrow"></a>
+    </section>
+
+
+
+
+
+
+  </main>
+
+
+
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>

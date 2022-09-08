@@ -1,0 +1,163 @@
+/* resest */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Crimson Text', serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #22aeff, #97c4ff);
+  min-height: 100vh;
+}
+
+#pokedex-body {
+  background-color: #ff4747;
+  width: 50rem;
+  margin-inline: auto;
+  margin-top: 2rem;
+  border: 0.3rem solid #420000;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 6px 15px 5px #000000;
+}
+
+#pokedex-head {
+  display: flex;
+  width: 100%;
+  height: 6%;
+  margin: 2rem;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#pokedex-head img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.light {
+  border: 0.2rem solid #3b3b3b;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+
+#pokedex-head div:nth-child(2) {
+  background: blue;
+}
+#pokedex-head div:nth-child(3) {
+  background: rgb(72, 197, 0);
+}
+#pokedex-head div:nth-child(4) {
+  background: rgb(255, 196, 0);
+}
+
+#screen-shape {
+  background-color: #ffffff;
+  width: 80%;
+  height: 35rem;
+  margin-inline: auto;
+  border: 0.8rem double #3b3b3b;
+  border-radius: 20px 20px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#screen-shape h2 {
+  font-size: 3rem;
+}
+
+#screen-shape h2 span {
+  font-size: 3rem;
+}
+
+#screen {
+  width: 80%;
+  height: 80%;
+  background: #004a75;
+  margin-inline: auto;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  position: relative;
+}
+.bk-img {
+  max-width: 100%;
+  height: 100%;
+  border: 0.5rem solid #2e2e2e;
+  border-radius: 2rem;
+}
+
+.pokemon-image {
+  width: 11rem;
+  z-index: 3;
+  position: absolute;
+  bottom: 5rem;
+  left: 8rem;
+}
+
+#pk-name {
+  text-transform: capitalize;
+}
+
+#pk-stats {
+  background-color: #ffffff;
+  width: 80%;
+  height: 25rem;
+  margin-top: 1rem;
+  margin-inline: auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 2rem;
+}
+
+#pk-stats p,
+span {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+#pk-stats div {
+  width: 100%;
+  text-align: center;
+}
+
+#pk-stats div h3 {
+  font-size: 2.5rem;
+}
+
+#pokedex-buttons {
+  margin-top: 3rem;
+  margin-inline: 5rem;
+  padding-bottom: 2rem;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 6rem;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.94));
+}
+.btn:active {
+  width: 5.9rem;
+}
+
+#pkInput {
+  font-size: 2rem;
+  font-weight: 700;
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #ffffff;
+}
